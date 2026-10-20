@@ -6,8 +6,184 @@
     "type": "offline"
   },
   "server": {
-    "ip": "example.aternos.me",
-    "port": 75375,
+    "ip": "FriendOnlySMP143.aternos.me"
+Connect
+Starting ...
+- BackAgain (2.7), ClearLag (3.2.2), Essentials (2.22.0), Geyser-Spigot (2.12.0-SNAPSHOT), LuckPerms (5.5.71), SetHome (6.2.3), SkinsRestorer (15.12.6), TreeAssist (7.3.34), Vault (1.7.3-b131), ViaBackwards (5.12.2-SNAPSHOT), ViaRewind (4.2.0), ViaVersion (5.12.2-SNAPSHOT), floodgate (2.2.5-SNAPSHOT (b141-81b65cc)), kKitsLite (0.4.2)
+
+Keep your server always available with Dawn. 
+
+Get Dawn
+Boost your Aternos server's performance with free additional RAM for a better gameplay.
+
+Get your free RAM boost
+
+Stop
+ Address
+FriendOnlySMP143.aternos.me:28224
+ Copy
+ Software
+PaperMC
+ Change
+ Version
+26.3 (206)
+ Change
+Automatic updates
+Connect to your server
+Connecting to your Aternos Minecraft server is a simple process: just start your server and enter the server address in your Minecraft client. However, you may occasionally run into connection issues. In this article, we'll explain how to connect and provide solutions for any problems you might encounter while connecting.
+
+How to connect to your server:
+To connect to your server, copy the server address and enter it in your Minecraft client, as a new server or with "Direct Connect". You can find the server address on the server page.
+
+This address includes your server port if "Cracked" is enabled in the options. Read more details about cracked launchers, especially TLauncher, here.
+
+Connection issues? Here's how to fix them:
+Sometimes, connecting may fail on the first attempt due to various reasons. Most of time you will get a error message like:
+
+Internal Exception java.net.SocketException: Connection reset 
+Let’s take it step by step to resolve the issue and ensure you can successfully connect t ...
+
+Read more
+Invalid Session / Invalid Token / Failed to verify username
+When you try to join your server and see one of the error messages, the server could not verify your account. Sometimes, the message might also say that Mojangs authentication servers are offline. This is a security mechanism to protect servers from hackers etc.
+
+If you have a premium account
+Close all Minecraft-related windows on your computer. This includes any type of launcher (Vanilla Launcher, Technic, Twitch, etc.) and the game itself, of course. Make sure nothing is running anymore. Then open Minecraft again and try to join your server. If this does not work, try to restart your computer. 
+
+If you use cracked Minecraft and/or TLauncher
+This error message can also occur when you're using cracked Minecraft or a cracked launcher like T-Launcher. Besides that, while we do not recommend using cracked Minecraft, you need to enable cracked ...
+
+Read more
+Fix server starting problems
+Starting your server on Aternos is usually just as easy as clicking the start button and let the Aternos system do the hard work of loading all the files and starting the server with the correct configuration. But sometimes that's not enough and the server refuses to start and just switches its status from starting to stopping after the Aternos system discovers the failed start.
+
+When this happens it's most of the times a fixable problem caused by the installed software and not a problem in the Aternos system. The best source to find this problem is the log file of your server, which you can access here: https://aternos.org/log/
+
+Reading a log is not easy, but learning it helps to identify problems with your server easier and faster. Log lines start with the time and the log level:
+
+    Time                    Log level
+
+[13:50:55] [Server thread/INFO]: Starting minecraft server version 1.12.2
+To identify problems with your server you will most likely look for errors, which you can ...
+
+Read more
+
+We pay for your servers using advertisements. Please turn off your adblocker.
+exaroton logo
+Only pay to play.
+per-second
+Billing
+with
+High-end on-demand
+Minecraft servers
+Queue
+When our servers are at full capacity, you'll join a queue before your server starts. This article explains how the queue system works and what to expect while waiting.
+
+Why is there a queue?
+Aternos has limited server resources. When more players want to start servers than we have capacity available, players join a queue and wait for resources to become available. This happens when other players stop their servers. By using a fair queue system, we ensure that everyone gets a turn to play rather than letting some players monopolize our hardware.
+
+Read more
+The options of your server explained
+In this guide, we'll describe to you all the available options for your server.
+
+Please note:
+
+Every change on the options page requires your server to be restarted to take effect.
+Some options are available for all software types, and some others are only available to a specific type of software.
+Plugins can overwrite the behavior of some options. If something does not work as intended, check your plugins first.
+General options:
+Slots
+The slots define how many players can play on your server at the same time. This setting does not affect the performance of your server.
+
+Gamemode
+The gamemode option defines which gamemode will be applied to players who never played on your server before. If you want to change the gamemode just for you or for ...
+
+Read more
+Share access
+On Aternos you can share your server with your friends without giving them direct access to your account. This feature is called "Access" and you can find it in the panel in the server navigation. 
+
+Grant a friend access to your server
+Input your friend's Aternos username in the text box located on the access settings page, then click the add button. Afterwards, you can choose the permissions you wish your friends to grant.
+
+ Here is an overview ...
+
+Read more
+Install mods (Minecraft: Java Edition)
+Mods allow you to enhance your Minecraft gameplay with new mobs, items, mechanics, and more. In this article, we will explain to you how to easily install mods on your Aternos Minecraft Java Edition server.
+
+Install a software that supports mods on your server
+To use mods on your server, you need to install a server software (mod loader) that is capable of running mods. Aternos offers several server software options that support mods. The biggest selection of mods is available for Forge, but there are also alternative software options such as Fabric that offer more features or better performance. You will need to determine for yourself which software best suits your needs.Choose the best software for ...
+
+Read more
+Install plugins (Minecraft: Java Edition)
+Plugins allow you to enhance your Minecraft gameplay with new features, commands, and functionalities. In this article, we will explain how to easily install plugins on your Aternos Minecraft: Java Edition server.
+
+Install a supported server software for plugins
+You have to install a server software that allows the use of plugins. Currently available on Aternos are:
+
+PaperMC (recommended): https://aternos.org/software/papermc/
+Purpur: https://aternos.org/software/purpur/
+Spigot: https://aternos.org/software/spigot/
+Install a plugin
+Aternos offers a wide variety of plugins from multiple platforms, including Curseforge and Modrinth. You can easily find the right plugins for your needs using our search ...
+
+Read more
+Install modpacks (Minecraft: Java Edition)
+Aternos offers a wide range of modpacks for Minecraft Java Edition published on modded launchers like CurseForge, Modrinth, ATLauncher and the FTB App. In this article, we will show you how to install a modpack on your server and your computer.
+
+Install the modpack on your server
+You can install supported modpacks directly in the software section of your Aternos server. Please note that modpacks are full modded experiences. You can only use one modpack at a time and can't change or add individual mods or configurations.  If you want to build your own modpack with custom mods and configs, follow this guide instead: Install Mods
+
+Read more
+Company
+Imprint
+Terms of service
+Privacy Policy
+Privacy Preferences
+© 2013-2026 Aternos GmbH
+
+We pay for your servers using advertisements. Please turn off your adblocker.
+exaroton logo
+High-end on-demand
+Minecraft
+servers
+with
+per-second
+Billing
+Only pay to play.
+
+Help
+
+Server
+
+Account
+Help
+Help center
+Discord
+Server
+My servers
+FriendOnlySMP143
+#dGOl4IW6l4Vgbp6J
+Server
+Options
+Console
+Log
+1
+Players
+Software
+Plugins
+Files
+Worlds
+Backups
+Access
+Account
+
+Account
+Suggestions
+My servers
+Logout
+",
+    "port": 28224,
     "version": "1.21.1"
   },
   "position": {
